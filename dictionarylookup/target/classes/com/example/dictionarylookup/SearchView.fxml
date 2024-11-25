@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.dictionarylookup.MainController"
+            prefWidth="800" prefHeight="600"
+            style="-fx-padding: 10; -fx-background-color: #f4f4f4;">
+
+    <!-- Search Label -->
+    <Label text="Dictionary Lookup"
+           layoutX="20" layoutY="20"
+           style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+
+    <!-- Input Field for Word -->
+    <TextField fx:id="wordInput"
+               layoutX="20" layoutY="60"
+               prefWidth="400"
+               promptText="Enter a word to search..." />
+
+    <!-- Search Button -->
+    <Button fx:id="searchButton"
+            layoutX="450" layoutY="60"
+            prefWidth="100"
+            text="Search"
+            onAction="#searchWord"
+            style="-fx-font-size: 14px; -fx-background-color: #0078d7; -fx-text-fill: white; -fx-padding: 5; -fx-border-radius: 5; -fx-background-radius: 5;" />
+
+    <!-- Error Label -->
+    <Label fx:id="errorLabel"
+           layoutX="20" layoutY="100"
+           style="-fx-font-size: 12px; -fx-text-fill: red;" />
+
+    <!-- ListView to Display Search Results -->
+    <ListView fx:id="resultsList"
+              layoutX="20" layoutY="140"
+              prefWidth="760" prefHeight="400"
+              style="-fx-background-color: white; -fx-border-color: #d3d3d3;" />
+</AnchorPane>

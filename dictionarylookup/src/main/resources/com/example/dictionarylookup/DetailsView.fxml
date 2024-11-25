@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.dictionarylookup.DetailController"
+      spacing="10"
+      alignment="TOP_LEFT"
+      style="-fx-padding: 20; -fx-background-color: #f4f4f4;">
+
+    <!-- Word Label -->
+    <Label fx:id="wordLabel"
+           text="Word Details"
+           style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+
+    <!-- TextArea to Display Detailed Information -->
+    <TextArea fx:id="wordDetailsText"
+              wrapText="true"
+              editable="false"
+              style="-fx-font-size: 14px; -fx-padding: 10;"
+              prefHeight="300" prefWidth="550" />
+
+    <!-- Back Button -->
+    <Button text="Back"
+            onAction="#handleBackButton"
+            style="-fx-font-size: 14px; -fx-background-color: #0078d7; -fx-text-fill: white; -fx-padding: 10; -fx-border-radius: 5; -fx-background-radius: 5;" />
+</VBox>

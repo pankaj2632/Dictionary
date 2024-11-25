@@ -1,0 +1,99 @@
+/* General Styles */
+.root {
+    -fx-font-family: "Arial, Helvetica, sans-serif";
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 10;
+}
+
+/* Title Labels */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+/* Subtitles and Secondary Labels */
+.subtitle-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #555;
+}
+
+/* Input Fields */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-background-color: #ffffff;
+}
+
+/* Buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #005fa3;
+}
+
+.button:pressed {
+    -fx-background-color: #003f73;
+}
+
+/* ListView */
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+/* VBox for dynamic content */
+.dynamic-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #d3d3d3;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+}
+
+/* Meanings and Definitions */
+.meaning-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 5;
+    -fx-text-fill: #333;
+}
+
+.definition-label {
+    -fx-font-size: 14px;
+    -fx-padding: 5;
+    -fx-text-fill: #555;
+}
+
+/* Back Button */
+.back-button {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: white;
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 14px;
+}
+
+.back-button:hover {
+    -fx-background-color: #005fa3;
+}
+
+.back-button:pressed {
+    -fx-background-color: #003f73;
+}
